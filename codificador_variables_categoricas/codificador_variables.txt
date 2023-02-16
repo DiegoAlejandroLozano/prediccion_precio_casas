@@ -1,0 +1,338 @@
+{
+    "MSZoning": {
+        "rl": 0,
+        "rm": 1,
+        "c (all)": 2,
+        "fv": 3,
+        "rh": 4
+    },
+    "Street": {
+        "pave": 0,
+        "grvl": 1
+    },
+    "Alley": {
+        "n/a": 0,
+        "grvl": 1,
+        "pave": 2
+    },
+    "LotShape": {
+        "reg": 0,
+        "ir1": 1,
+        "ir2": 2,
+        "ir3": 3
+    },
+    "LandContour": {
+        "lvl": 0,
+        "bnk": 1,
+        "low": 2,
+        "hls": 3
+    },
+    "LotConfig": {
+        "inside": 0,
+        "fr2": 1,
+        "corner": 2,
+        "culdsac": 3,
+        "fr3": 4
+    },
+    "LandSlope": {
+        "gtl": 0,
+        "mod": 1,
+        "sev": 2
+    },
+    "Neighborhood": {
+        "collgcr": 0,
+        "veenker": 1,
+        "crawfor": 2,
+        "noridge": 3,
+        "mitchel": 4,
+        "somerst": 5,
+        "oldtown": 6,
+        "brkside": 7,
+        "sawyer": 8,
+        "nridght": 9,
+        "sawyerw": 10,
+        "names": 11,
+        "idotrr": 12,
+        "meadowv": 13,
+        "timber": 14,
+        "stonebr": 15,
+        "clearcr": 16,
+        "gilbert": 17,
+        "edwards": 18,
+        "nwames": 19,
+        "npkvill": 20,
+        "blmngtn": 21,
+        "brdale": 22,
+        "swisu": 23,
+        "blueste": 24
+    },
+    "Condition1": {
+        "norm": 0,
+        "feedr": 1,
+        "artery": 2,
+        "rrae": 3,
+        "rrnn": 4,
+        "rran": 5,
+        "posn": 6,
+        "posa": 7,
+        "rrne": 8
+    },
+    "Condition2": {
+        "norm": 0,
+        "artery": 1,
+        "rrnn": 2,
+        "feedr": 3,
+        "posn": 4,
+        "posa": 5
+    },
+    "BldgType": {
+        "1fam": 0,
+        "2fmcon": 1,
+        "duplex": 2,
+        "twnhse": 3,
+        "twnhs": 4
+    },
+    "HouseStyle": {
+        "2story": 0,
+        "1story": 1,
+        "1.5fin": 2,
+        "1.5unf": 3,
+        "slvl": 4,
+        "2.5unf": 5,
+        "2.5fin": 6,
+        "sfoyer": 7
+    },
+    "RoofStyle": {
+        "gable": 0,
+        "hip": 1,
+        "gambrel": 2,
+        "mansard": 3,
+        "flat": 4
+    },
+    "RoofMatl": {
+        "compshg": 0,
+        "wdshngl": 1,
+        "membran": 2,
+        "wdshake": 3,
+        "tar&grv": 4,
+        "roll": 5,
+        "clytile": 6
+    },
+    "Exterior1st": {
+        "vinylsd": 0,
+        "metalsd": 1,
+        "wd sdng": 2,
+        "brkface": 3,
+        "hdboard": 4,
+        "wdshing": 5,
+        "cemntbd": 6,
+        "stucco": 7,
+        "plywood": 8,
+        "asbshng": 9,
+        "brkcomm": 10,
+        "stone": 11,
+        "imstucc": 12,
+        "cblock": 13
+    },
+    "Exterior2nd": {
+        "vinylsd": 0,
+        "metalsd": 1,
+        "wd shng": 2,
+        "hdboard": 3,
+        "wd sdng": 4,
+        "plywood": 5,
+        "cmentbd": 6,
+        "brkface": 7,
+        "stucco": 8,
+        "asbshng": 9,
+        "brk cmn": 10,
+        "imstucc": 11,
+        "asphshn": 12,
+        "other": 13,
+        "stone": 14,
+        "cblock": 15
+    },
+    "MasVnrType": {
+        "brkface": 0,
+        "none": 1,
+        "stone": 2,
+        "brkcmn": 3
+    },
+    "ExterQual": {
+        "gd": 0,
+        "ta": 1,
+        "ex": 2,
+        "fa": 3
+    },
+    "ExterCond": {
+        "ta": 0,
+        "fa": 1,
+        "gd": 2,
+        "ex": 3
+    },
+    "Foundation": {
+        "pconc": 0,
+        "cblock": 1,
+        "brktil": 2,
+        "wood": 3,
+        "slab": 4,
+        "stone": 5
+    },
+    "BsmtQual": {
+        "gd": 0,
+        "ta": 1,
+        "ex": 2,
+        "n/a": 3,
+        "fa": 4
+    },
+    "BsmtCond": {
+        "ta": 0,
+        "gd": 1,
+        "n/a": 2,
+        "fa": 3,
+        "po": 4
+    },
+    "BsmtExposure": {
+        "no": 0,
+        "gd": 1,
+        "mn": 2,
+        "av": 3,
+        "n/a": 4
+    },
+    "BsmtFinType1": {
+        "glq": 0,
+        "alq": 1,
+        "unf": 2,
+        "rec": 3,
+        "n/a": 4,
+        "lwq": 5,
+        "blq": 6
+    },
+    "BsmtFinType2": {
+        "unf": 0,
+        "n/a": 1,
+        "rec": 2,
+        "blq": 3,
+        "glq": 4,
+        "lwq": 5,
+        "alq": 6
+    },
+    "Heating": {
+        "gasa": 0,
+        "gasw": 1,
+        "grav": 2,
+        "wall": 3,
+        "othw": 4
+    },
+    "HeatingQC": {
+        "ex": 0,
+        "gd": 1,
+        "ta": 2,
+        "fa": 3,
+        "po": 4
+    },
+    "CentralAir": {
+        "y": 0,
+        "n": 1
+    },
+    "Electrical": {
+        "sbrkr": 0,
+        "fusef": 1,
+        "fusea": 2,
+        "fusep": 3,
+        "mix": 4,
+        "n/a": 5
+    },
+    "KitchenQual": {
+        "gd": 0,
+        "ta": 1,
+        "ex": 2,
+        "fa": 3
+    },
+    "Functional": {
+        "typ": 0,
+        "min1": 1,
+        "maj1": 2,
+        "min2": 3,
+        "mod": 4,
+        "maj2": 5
+    },
+    "FireplaceQu": {
+        "n/a": 0,
+        "ta": 1,
+        "gd": 2,
+        "ex": 3,
+        "fa": 4,
+        "po": 5
+    },
+    "GarageType": {
+        "attchd": 0,
+        "detchd": 1,
+        "builtin": 2,
+        "carport": 3,
+        "basment": 4,
+        "2types": 5
+    },
+    "GarageFinish": {
+        "rfn": 0,
+        "unf": 1,
+        "fin": 2
+    },
+    "GarageQual": {
+        "ta": 0,
+        "fa": 1,
+        "gd": 2,
+        "ex": 3,
+        "po": 4
+    },
+    "GarageCond": {
+        "ta": 0,
+        "fa": 1,
+        "gd": 2,
+        "po": 3,
+        "ex": 4
+    },
+    "PavedDrive": {
+        "y": 0,
+        "n": 1,
+        "p": 2
+    },
+    "PoolQC": {
+        "n/a": 0,
+        "ex": 1,
+        "fa": 2,
+        "gd": 3
+    },
+    "Fence": {
+        "n/a": 0,
+        "mnprv": 1,
+        "gdprv": 2,
+        "gdwo": 3,
+        "mnww": 4
+    },
+    "MiscFeature": {
+        "n/a": 0,
+        "shed": 1,
+        "othr": 2,
+        "tenc": 3
+    },
+    "SaleType": {
+        "wd": 0,
+        "new": 1,
+        "cod": 2,
+        "conli": 3,
+        "cwd": 4,
+        "conlw": 5,
+        "con": 6,
+        "conld": 7,
+        "oth": 8
+    },
+    "SaleCondition": {
+        "normal": 0,
+        "abnorml": 1,
+        "partial": 2,
+        "alloca": 3,
+        "family": 4,
+        "adjland": 5
+    }
+}
